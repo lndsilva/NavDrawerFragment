@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/group1"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/fav"
+            android:icon="@drawable/ic_baseline_favorite"
+            android:title="Favorite"
+            android:checked="true" />
+        <item
+            android:id="@+id/shared"
+            android:icon="@drawable/ic_baseline_share"
+            android:title="Shared" />
+        <item
+            android:id="@+id/settigs"
+            android:icon="@drawable/ic_baseline_settings"
+            android:title="Settings" />
+    </group>
+
+    <group
+        android:id="@+id/grupo2"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/subtitle"
+            android:title="Subtitle">
+            <menu>
+                <item
+                    android:id="@+id/gallery"
+                    android:icon="@drawable/ic_baseline_image"
+                    android:title="Gallery" />
+
+                <item
+                    android:id="@+id/imports"
+                    android:icon="@drawable/ic_baseline_camera_alt"
+                    android:title="Import" />
+
+            </menu>
+        </item>
+    </group>
+</menu>
